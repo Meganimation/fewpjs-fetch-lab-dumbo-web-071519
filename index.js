@@ -13,8 +13,8 @@ function renderBooks(json) {
   })
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-  fetchBooks(renderBooks();)
+document.addEventListener('DOMContentLoaded', function(renderBook) {
+  fetchBooks()
 })
 
 
