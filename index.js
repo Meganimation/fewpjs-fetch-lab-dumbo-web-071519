@@ -9,7 +9,7 @@ function renderBooks(json) {
   json.forEach(book => {
     const thingie = document.createElement('h2')
     thingie.innerHTML = book.name
-    main.appendChild(h2)
+    thingie.appendChild(h2)
   })
 }
 
