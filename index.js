@@ -7,7 +7,7 @@ return fetch('https://anapioficeandfire.com/api/books')
 function renderBooks(json) {
   const main = document.querySelector('main')
   json.forEach(book => {
-    const h2 = document.createElement('h2')
+    const thingie = document.createElement('h2')
     main.innerHTML = book.name
     main.appendChild(h2)
   })
